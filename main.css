@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css?family=Lexend:100,200,300,regular,500,600,700,800,900");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:regular,500,600,700,800,900,italic,500italic,600italic,700italic,800italic,900italic");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Playfair Display";
+}
+
+body {
+  position: relative;
+}
+body .div-1 {
+  position: absolute;
+  right: 2px;
+}
+body header {
+  background-color: #ffffff;
+  justify-content: center;
+  width: 100%;
+  max-width: 1500px;
+  display: flex;
+  margin: 40px 0px;
+}
+body header .big-nav {
+  width: 50%;
+}
+body header .big-nav .nav-1 {
+  margin-right: 50px;
+}
+body header .big-nav nav {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  height: 60px;
+  align-items: center;
+  font-weight: 400;
+}
+body header .big-nav nav img {
+  margin-left: 50px;
+}
+body header .big-nav nav .nav-2 {
+  display: flex;
+  align-items: center;
+}
+body header .big-nav nav .nav-2 li {
+  margin-left: 70px;
+}
+body header .nav-3 {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+body header .nav-3 li {
+  padding-right: 80px;
+}
+body section {
+  padding-top: 90px;
+  background-color: #fffaf3;
+  height: 700px;
+  padding-left: 150px;
+}
+body section .section-1 {
+  display: flex;
+  align-items: flex-end;
+}
+body section .section-1 h2 {
+  font-size: 45px;
+  margin-right: 15px;
+}
+body section .section-2 {
+  font-size: 50px;
+}
+body section .section-3 {
+  width: 580px;
+  font-family: "Lexend";
+}
+body section button {
+  margin-top: 50px;
+  width: 100px;
+  height: 50px;
+  border: 2px solid #C08D5D;
+  color: #3F4042;
+}
+
+@media (max-width: 900px) {
+  header, section {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+}
+@media (max-width: 700px) {
+  header, section.big-box {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+}/*# sourceMappingURL=main.css.map */
